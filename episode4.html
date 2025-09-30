@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Arthur – Épisode 4</title>
+	
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background-color: #d5bdaf;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .carte {
+            background-color: #f7e1d7;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #ffd166;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        img {
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .bouton {
+            display: inline-block;
+            background-color: #6a5acd; /* violet pour l’épisode 4 */
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            margin: 8px 4px;
+            transition: background-color 0.3s;
+        }
+
+        .bouton:hover {
+            background-color: #5a4fcf;
+            cursor: pointer;
+        }
+
+        .menu-nav {
+            margin-top: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="carte">
+        <h1>⚔️ Arthur – Épisode 4 : L’Alliance des Royaumes ⚔️</h1>
+
+        <p>Armé de l’Épée de Lumière, Arthur réunit les seigneurs des terres libres. Même les anciens ennemis vinrent prêter serment autour de la Table Ronde.</p>
+
+        <p>La princesse Quelliève, grâce à sa sagesse, négocia une alliance avec le Royaume des Brumes, caché depuis des siècles derrière les montagnes de cristal.</p>
+
+        <p>Mais Merlin, inquiet, murmura : « Le vrai danger ne vient pas de l’armée… mais de l’ombre qui grandit dans le cœur de l’un d’entre vous. »</p>
+
+        <img src="lesroyaumesunis.jpg" alt="Les royaumes unis">
+
+        <p>La bataille finale approche… Qui trahira ? Qui survivra ?</p>
+
+        <div class="menu-nav">
+            <a href="index.html" class="bouton">Épisode 2</a>
+            <a href="episode3.html" class="bouton">Épisode 3</a>
+			<a href="episode5.html" class="bouton">Épisode 5</a>
+            <!-- Tu pourras ajouter Épisode 5 plus tard -->
+        </div>
+		<button onclick="document.getElementById('musique').play()" style="margin-top:15px; padding:8px 16px; background:#ffd166; border:none; border-radius:20px; cursor:pointer;">
+    🎶 Activer la musique
+</button>
+
+<audio id="musique" src="ambiance.mp3"></audio>
+    </div>
+</body>
+</html>

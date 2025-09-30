@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Arthur – Épisode 3</title>
+    <style>
+        body {
+            background-color: #d5bdaf;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .carte {
+            background-color: #f7e1d7;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #ffd166;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        img {
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .bouton {
+            display: inline-block;
+            background-color: #4a90e2; /* bleu pour différencier */
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .bouton:hover {
+            background-color: #357ae8;
+            cursor: pointer;
+        }
+
+        /* Flèche de retour */
+        .retour {
+            display: inline-block;
+            margin-top: 20px;
+            color: #ff6b6b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .retour:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="carte">
+        <h1>✨ Arthur – Épisode 3 : Le Miracle de l’Épée ✨</h1>
+
+        <p>Après des nuits d’angoisse et de doutes, Arthur se rendit seul dans la forêt enchantée. Là, sous la lune argentée, il découvrit une clairière illuminée par une lumière dorée.</p>
+
+        <p>Au centre trônait une épée plantée dans une pierre, scintillant comme si elle respirait. Une voix ancienne résonna : « Celui qui retirera cette lame est le vrai roi de Canlot. »</p>
+
+        <p>Arthur, le cœur battant, posa sa main sur le manche… Et l’épée glissa doucement, comme si elle l’attendait depuis toujours.</p>
+
+        <p>Dès cet instant, les Enfants de la Table Ronde sentirent un changement. Le destin d’Arthur venait de basculer.</p>
+
+        <img src="epd.jpg" alt="L'épée d'Arthur">
+
+        <p>La guerre approche… Le roi Maux de Tintagel prépare son armée.</p>
+
+        <div class="menu-nav">
+    <a href="index.html" class="bouton">Épisode 2</a>
+    <a href="episode4.html" class="bouton">Épisode 4</a>
+	<button onclick="document.getElementById('musique').play()" style="margin-top:15px; padding:8px 16px; background:#ffd166; border:none; border-radius:20px; cursor:pointer;">
+    🎶 Activer la musique
+</button>
+
+<audio id="musique" src="ambiance.mp3"></audio>
+
+</div>
+    </div>
+</body>
+</html>
