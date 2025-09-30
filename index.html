@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Arthur le roi de CANLOT</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	
+    <style>
+        body {
+            background-color: #d5bdaf;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200vh; /* ← on passe de 300vh à 100vh pour éviter le scroll inutile */
+            margin: 0;
+            padding: 20px; /* un peu d’espace sur mobile */
+        }
+
+        .carte {
+            background-color: #f7e1d7;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px; /* un peu plus large pour le texte */
+            width: 100%;
+        }
+
+        h1 {
+            color: #ffd166;
+            font-size: 1.8em; /* un peu plus petit pour mieux rentrer */
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        img {
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            max-width: 100%;
+            height: auto;
+        }
+
+        .bouton {
+            display: inline-block;
+            background-color: #ff6b6b;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .bouton:hover {
+            background-color: #ff5252;
+            cursor: pointer;
+        }
+
+        ul {
+            text-align: left;
+            margin-top: 20px;
+            padding-left: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="carte">
+        <h1>Arthur et les enfants de la table ronde (suite n°2)</h1>
+
+        <p>Cette histoire raconte un roi qui était le chef de Canlot. Ce roi avait un fils du nom d’Arthur, mais un jour, une guerre venait de s’abattre sur Canlot et Arthur.</p>
+
+        <p>Il était donné aux fées par Merlin, un magicien qui va protéger Arthur. Quand Arthur grandit, il travaillait au château en tant qu’écuyer avec son amie, la princesse Vena, qui s’appelait Quelliève. Ils étaient tous heureux et ils ont bâti les Enfants de la Table Ronde. Et le roi Maux de Tintagel voulait prendre le trône du roi.</p>
+
+        <p>Un jour, Arthur découvrit un miracle.</p>
+
+        <p>VOUS voulez suivre l’histoire d’Arthur, épisode n°3 ? Cliquez sur <strong>CONTACTEZ-MOI</strong> et abonnez-vous !</p>
+
+        <div class="menu-nav">
+    <a href="episode3.html" class="bouton">Épisode 3</a>
+    <a href="episode4.html" class="bouton">Épisode 4</a>
+	<a href="episode5.html" class="bouton">Épisode 5</a>
+	<a href="episode6.html" class="bouton">Épisode 6</a>
+	<a href="a-propos.html" class="bouton">À propos de l’auteur</a>
+	
+	<button onclick="document.getElementById('musique').play()" style="margin-top:15px; padding:8px 16px; background:#ffd166; border:none; border-radius:20px; cursor:pointer;">
+    🎶 Activer la musique
+</button>
+
+<audio id="musique" src="ambiance.mp3"></audio>
+</div><br><br>
+
+        <img src="sate.jpg" alt="Une belle image">
+
+        <ul>
+            <li>Les cités d’or – Partie 1</li>
+            <li>Cliquez sur « CONTACTEZ-MOI » pour la suite !</li>
+        </ul>
+    </div>
+	<audio autoplay loop>
+    <source src="ambiance.mp3" type="audio/mpeg">
+    Votre navigateur ne supporte pas l'audio.
+</audio>
+</body>
+</html>
